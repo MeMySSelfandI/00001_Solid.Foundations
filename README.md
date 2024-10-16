@@ -12,4 +12,6 @@
 2. This can be done from the **REMIX IDE**.
 3. This can be done locally from a ***terminal***.
 4. This can be done from vil puertos' Visual Studio Code.
+
+Three `*` → ***FAMO***
  
