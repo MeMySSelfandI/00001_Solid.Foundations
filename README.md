@@ -13,5 +13,7 @@
 3. This can be done locally from a ***terminal***.
 4. This can be done from vil puertos' Visual Studio Code.
 
-Three asterisks `*` will produce → ***FAMO***
- 
+
+• both "sides" one asterisk `*` will yield italics, e.g.: *FAMO*
+
+• Three asterisks `*` will produce → ***FAMO***
