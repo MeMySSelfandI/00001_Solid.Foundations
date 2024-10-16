@@ -14,5 +14,6 @@
 4. This can be done from vil puertos' Visual Studio Code.
 
 ► This is another commit from vil puertos or vil puertas' web GitHub version. It also can be done from vil puertos or vil puertas' Visual Studio Code.
-• Both "sides" one asterisk `*` will yield italics, id est: *FAMO*
-• Both "sides" three asterisks `*` will yield bold italic, id est: ***FAMO***
+
+1. • Both "sides" one asterisk `*` will yield italics, id est: *FAMO*
+2. • Both "sides" three asterisks `*` will yield bold italic, id est: ***FAMO***
