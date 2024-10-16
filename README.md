@@ -17,3 +17,4 @@
 
 1. • Both "sides" one asterisk `*` will yield italics, e.g.: *FAMO*
 2. • Both "sides" three asterisks `***` will yield bold italics, e.g.: ***FAMO***
+3. • This line goes for testing purposes.
