@@ -14,6 +14,6 @@
 4. This can be done from vil puertos' Visual Studio Code.
 
 
-• both "sides" one asterisk `*` will yield italics, e.g.: *FAMO*
+• Both "sides" one asterisk `*` will yield italics, id est: *FAMO*
 
 • Three asterisks `*` will produce → ***FAMO***
