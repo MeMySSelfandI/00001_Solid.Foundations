@@ -73,11 +73,11 @@
 	},
 	"sources": {
 		"dynamic_hello_world.sol": {
-			"keccak256": "0x653c81568bd09f66c85bbeaa64f1fb116b6fd9aae2b4fb6192009305180cf640",
+			"keccak256": "0x5ead3f0edadb8e0c5b3f90f54491af5c78899e7e1e9f9c3ecb7c5fe4d65ed535",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://91e215227c8b008e8bc5dd5beafac139cefd62414927fecf51a3e3072af1b8ff",
-				"dweb:/ipfs/QmbBmVxNSf9RUJwMt3BxjQP3UeXQQoh9usR3esZGEmSMsR"
+				"bzz-raw://53255e4dd8d08860abc8ba6c2d6847813d21d5adb18b5c6c19e8d9a1be505842",
+				"dweb:/ipfs/QmRMDzLhbC941f9VMHV9ow27hF4Bh5neiTAUbdWJWAZLHV"
 			]
 		}
 	},
