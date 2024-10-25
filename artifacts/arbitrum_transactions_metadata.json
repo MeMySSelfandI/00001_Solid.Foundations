@@ -115,6 +115,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -124,6 +137,56 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_date",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_delivery_date",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_product",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_price",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_code",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_cel_number",
+						"type": "string"
+					},
+					{
+						"internalType": "int8",
+						"name": "_status",
+						"type": "int8"
+					}
+				],
+				"name": "pushData",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -155,11 +218,11 @@
 	},
 	"sources": {
 		"arbitrum_transactions.sol": {
-			"keccak256": "0x7ed0795bbf5eea4e510e67ef6b17866d385e1ea84f4d6f7a71f6796e62209105",
+			"keccak256": "0x810448f5bbe6d57bba5e113a9428cccb46232635e4ddaa5136723bd11a763113",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b484db9bcb9fec45582570c3d204e3b6fb61e567a8ca99bfeb0bdbfc63f25d77",
-				"dweb:/ipfs/QmVoETgWHmJU9tJGfCZQRBGqpYMJpWVQhunLCNKEg3bfza"
+				"bzz-raw://6ca795fc53499a4cae0e7c283ad3fdc1cf29234c1c1a0963912651236d631f89",
+				"dweb:/ipfs/QmYBzxURraHBVRyT77vNPn7VHn9fDRhcCqcaPvSMinrkg4"
 			]
 		}
 	},

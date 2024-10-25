@@ -37,7 +37,6 @@ contract arbitrum_transactions {
         address wallet         // person who executed the contract
     );
 
-
 // modifier so that only the owner can withdraw the funds from the contract
 modifier onlyOwner(){
 require(msg.sender == owner, "only the owner can withdraw the funds"); _;
@@ -53,34 +52,47 @@ require(msg.value >= amount, "It does not have a balance in ARB to execute"); _;
         owner = payable(msg.sender);  // Sets the owner as the wallet that creates the contract
     }
 
-/*
-
-    // Function to update data (as an example)
-    function updateData(
+// Function to change enum data
+    function pushData(
         string memory _date,
         string memory _delivery_date,
         string memory _product,
         string memory _price,
         string memory _code,
         string memory _cel_number,
-        int8 _status
-    ) public {
-        // Update data
-        data = Data({
-            date: _date,
-            delivery_date: _delivery_date,
-            product: _product,
-            price: _price,
-            code: _code,
-            cel_number: _cel_number,
-            status: _status,
-            wallet: msg.sender  // Set the caller as the wallet
-        });
+        int8 _status) public payable cost(1000000000000000){
 
-        // Emit event
-        emit newData(_date, _delivery_date, _product, _price, _code, _cel_number, _status, msg.sender); 
+data = Data(_date,
+            _delivery_date,
+            _product,
+            _price,
+            _code,
+            _cel_number,
+            _status,
+            msg.sender);
 
-*/
+// emit event as a kind of log
+emit newData(_date,
+             _delivery_date,
+             _product,
+             _price,
+             _code,
+             _cel_number,
+             _status,
+             msg.sender);
 
 }
 
+// function to withdraw funds from the contract
+function withdraw() public onlyOwner{
+    uint balance = address(this).balance;
+    require(balance>0,"There are no funds in the contract yet");
+    owner.transfer(balance);
+}
+
+// function to query the value found in the contract
+function getBalance() public view returns(uint256){
+    return address(this).balance;
+}
+
+}
