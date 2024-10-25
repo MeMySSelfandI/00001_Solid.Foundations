@@ -115,19 +115,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -177,14 +164,7 @@
 						"type": "int8"
 					}
 				],
-				"name": "pushData",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "withdraw",
+				"name": "updateData",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -218,11 +198,11 @@
 	},
 	"sources": {
 		"arbitrum_transactions.sol": {
-			"keccak256": "0x810448f5bbe6d57bba5e113a9428cccb46232635e4ddaa5136723bd11a763113",
+			"keccak256": "0x2ab646c83555231f11cee7a75f8438fd96dfca1b81024443b73bb9e75e323b75",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6ca795fc53499a4cae0e7c283ad3fdc1cf29234c1c1a0963912651236d631f89",
-				"dweb:/ipfs/QmYBzxURraHBVRyT77vNPn7VHn9fDRhcCqcaPvSMinrkg4"
+				"bzz-raw://024db1d618c45cf52d98dd91d36f8acd49a9349f98f81428fe35eb30216fd4cc",
+				"dweb:/ipfs/QmVYmFbUK6DdnkX7hha9GXBAcxG23NEpHULsVLxqbi4fA9"
 			]
 		}
 	},
