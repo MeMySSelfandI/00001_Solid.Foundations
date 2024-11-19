@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -28,19 +28,6 @@
 				],
 				"name": "SetPurpose",
 				"type": "event"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -84,7 +71,7 @@
 		"compilationTarget": {
 			"My_FAMO_contract_by_Austin_Griffith.sol": "My_FAMO_contract_by_Austin_Griffith"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -97,11 +84,11 @@
 	},
 	"sources": {
 		"My_FAMO_contract_by_Austin_Griffith.sol": {
-			"keccak256": "0xd44aefb90c71aa036d2909c5cb9795b47ac3d2101e1768259065458bed998aee",
+			"keccak256": "0x03e3c42de482c0c1be935612048d017bb9eb0ccf52e179a66ca142e524689f3e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://500d3b3fee5c9b0113f2ebf1447306dc74369f5d95808ef97f107d05ea393dc1",
-				"dweb:/ipfs/QmdQhimbNC62B7tZ965Z1tRp5CYiTnghyx4vwCHtvHjRNY"
+				"bzz-raw://511b1f76465d8e932475438c0cc110150e4e0f0ffe274f5073d44a19425bb511",
+				"dweb:/ipfs/QmWWcnBovk4TWbmshB2CK5mkTjQYrqPXQnKjn6PtT718Bd"
 			]
 		},
 		"hardhat/console.sol": {

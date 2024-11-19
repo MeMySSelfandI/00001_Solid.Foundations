@@ -7,9 +7,8 @@ import "hardhat/console.sol";
 
 contract My_FAMO_contract_by_Austin_Griffith {
     event SetPurpose(address sender, string purpose);
-    string public purpose = "Building Unstoppable Apps!!!";
-    address public owner = 0x9663CFe87d8c06E861d0D5fcBd358d50988a4b7E;
-    constructor() {
+    string public purpose = "Me.MySelf.&.I am building Unstoppable DApps!!!";
+        constructor() {
         // what should we do on deploy?
     }
 
