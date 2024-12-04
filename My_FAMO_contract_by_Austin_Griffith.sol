@@ -1,8 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.0 <0.9.0;
 
-// import "@openzeppelin/contracts/access/Ownable.sol";
-// https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol
+/* import "@openzeppelin/contracts/access/Ownable.sol";
+   https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol */
+   
 import "hardhat/console.sol";
 
 contract My_FAMO_contract_by_Austin_Griffith {
